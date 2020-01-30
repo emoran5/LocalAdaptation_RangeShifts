@@ -4,6 +4,8 @@ Source code for the AoB paper "Simulating the effects of local adaptation and li
 Emily V. Moran, 2020
 University of California, Merced
 
+Similar to range_shift_model, but with improved dispersal calculations and allowing for multiple life histories besides trees.
+
 ##Locally adapted tree model
 
 TreeMod_LA_Setup.r - Intializes the basic locally adapted tree model, setting up landscape, adding in first individuals, calculating dispersal probabilities for all seed and pollen dispersal kernels, creating a seed dispersal image (if desired) and saving an output file "TreeMod_LA_Setup.RData"
